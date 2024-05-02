@@ -9,8 +9,8 @@ body {
 }
 
 .container {
-  display: grid;
-  grid-template-columns: repeat(7, 1fr);
+  display: flex;
+  flex-wrap: wrap;
   border: 2px black solid;
   width: 90vmin;
   aspect-ratio: 1/1;
@@ -19,7 +19,7 @@ body {
 }
 
 .sub-container {
-  width: calc(90vmin / 7);
+  width: calc(90vmin / 7 - .5px);
   aspect-ratio: 1/1;
 }
 
