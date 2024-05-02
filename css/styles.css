@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #222;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  border: 2px black solid;
+  width: 90vmin;
+  aspect-ratio: 1/1;
+  margin: 5vmin auto;
+
+}
+
+.sub-container {
+  width: calc(90vmin / 7);
+  aspect-ratio: 1/1;
+}
+
+.red {
+  border: 2px solid red;
+}
+
+.orange {
+  border: 2px solid orange;
+}
+
+.yellow {
+  border: 2px solid yellow;
+}
+
+.green {
+  border: 2px solid green;
+}
+
+.blue {
+  border: 2px solid blue;
+}
+
+.indigo {
+  border: 2px solid indigo;
+}
+
+.violet {
+  border: 2px solid rgb(90, 0, 115);
+}
